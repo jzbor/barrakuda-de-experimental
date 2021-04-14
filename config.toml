@@ -1,0 +1,40 @@
+title = "Stamm Barrakuda"
+theme = "mybs"
+relativeURLs = true
+
+# code highlighting
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[Params]
+    logo = "/barrakuda.png"
+    header = "https://www.barrakuda.de/wp-content/uploads/2018/09/P1070721_2.jpg"
+    primaryColor = "#1D4899"
+    secondaryColor = "#ffff00"
+    greeting = "Willkommen beim"
+    # customCSS = ["css/custom.css"] # Include custom CSS files
+
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 100
+
+    [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 110
+
+    [[menu.main]]
+        identifier = "service"
+        name = "Service"
+        url = "/service/"
+        weight = 120
+
+    [[menu.main]]
+        identifier = "photos"
+        name = "Fotos"
+        url = "/photos/"
+        weight = 130

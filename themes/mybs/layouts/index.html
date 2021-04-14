@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="lead">{{ .Site.Params.greeting }}</div>
+<h1 class="display-4">{{ .Site.Title }}</h1>
+<p/>
+
+{{ .Content }}
+
+<!-- <div class="jumbotron"> -->
+<!--     <div class="container"> -->
+<!--         <p class="lead">{{ .Site.Params.greeting }}</p> -->
+<!--         <h1 class="display-4">{{ .Site.Title }}</h1> -->
+<!--         <p>There's also other things that are super nice</p> -->
+<!--     </div> -->
+<!-- </div> -->
+{{ end }}
